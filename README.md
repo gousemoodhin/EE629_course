@@ -16,3 +16,19 @@ I2C (Inter-Integrated Circuit), pronounced I-squared-C. is a synchronous, multi-
 - RESTART (R) is used by the master to initiate additional transfers without releasing the bus. 
 - STOP (P) is used by the master to signal the transfer is complete and the bus is free.
 - A slow slave uses clock stretching to give it more time to react, and masters will use arbitration when two or more masters want the bus at the same time.
+
+Text LCD displays are all very well, but they suffer from various limitations.
+
+- Don't have a huge amount of screen to play with, 
+- We can't do special effects (like inverse).
+- We can't draw boxes and gauges.
+
+## I/O Expander
+Configure Port A to be all outputs:
+
+Wire.beginTransmission (0x20);  // expander has I2C address 0x20
+Wire.send (0x00);   // register 0 is the I/O direction register for Port A
+Wire.send (0x00);   //  0x00 for all pins to output mode, 0xFF for all pins to input mode
+Wire.endTransmission (); 
+
+![alt text](https://www.electronicsforu.com/wp-contents/uploads/2016/11/lcd-and-arduino.-800x691.jpg)
