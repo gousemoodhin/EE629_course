@@ -3,7 +3,7 @@ Work related EE 629 IOT course
 
 # Project: LCD displays using I2C protocol
 
-Progress: Implementing code and understanding Architecture
+## Progress: I2C code implementation is completed
 
 ## I2C
 Introduction:
