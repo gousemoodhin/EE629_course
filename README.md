@@ -1,5 +1,4 @@
 # EE629_course
-Work related EE 629 IOT course 
 
 # Project: LCD displays using I2C protocol
 
