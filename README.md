@@ -13,6 +13,11 @@ I2C (Inter-Integrated Circuit), pronounced I-squared-C. is a synchronous, multi-
 
 - I2C is a serial communication protocol. It provides good support to the slow devices, such as EEPROM, ADC, I2C LCD, and RTC.
 - The bus is initially idle where both SCL and SDA are both high. This means no device is pulling SCL or SDA low. The communication on the bus, which begins with a START and ends with a STOP, consists of five components
+
+## Data Transfer Protocol
+Data is transferred between the master device and slave devices through a single SDA data line, via patterned sequences of 0’s and 1’s (bits).
+![alt text](https://www.electronicshub.org/wp-content/uploads/2018/02/Basics-of-I2C-Communication-Data-Transfer-Protocol.jpg)
+
 - START (S) is used by the master to initiate a transfer DATA is sent in 8-bit blocks and consists of 7-bit address and 1-bit direction from the master control code for master to slaves information from master to slave information from slave to master. 
 - ACK (A) is used by slave to respond to the master after each 8-bit data transfer.
 - RESTART (R) is used by the master to initiate additional transfers without releasing the bus. 
