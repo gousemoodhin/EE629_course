@@ -33,7 +33,7 @@ Wire.send (0x00);   // register 0 is the I/O direction register for Port A
 Wire.send (0x00);   //  0x00 for all pins to output mode, 0xFF for all pins to input mode
 Wire.endTransmission (); 
 
-![alt text](https://www.electronicsforu.com/wp-contents/uploads/2016/11/lcd-and-arduino.-800x691.jpg)
+![alt text](https://pi.lbbcdn.com/wp-content/uploads/2016/09/Raspberry-Pi-LCD-16x2-Circuit-Diagram-v1.png)
 
 
 ## References
