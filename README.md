@@ -40,6 +40,8 @@ Wire.endTransmission ();
 
 ![alt text](https://pi.lbbcdn.com/wp-content/uploads/2016/09/Raspberry-Pi-LCD-16x2-Circuit-Diagram-v1.png)
 
+## Next Work
+Next work: Read sensor data (temperature, humidity, etc) and display on LCD display, Referring [link](https://docs.labs.mediatek.com/resource/linkit-one/en/tutorials/sensor-data-communication-using-the-i2c-protocol-on-linkit-one-development-boards) 
 
 ## References
 1) [CircuitBasics](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/#:~:text=I2C%20is%20a%20serial%20communication,always%20controlled%20by%20the%20master.)
