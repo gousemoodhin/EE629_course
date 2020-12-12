@@ -34,3 +34,8 @@ Wire.send (0x00);   //  0x00 for all pins to output mode, 0xFF for all pins to i
 Wire.endTransmission (); 
 
 ![alt text](https://www.electronicsforu.com/wp-contents/uploads/2016/11/lcd-and-arduino.-800x691.jpg)
+
+
+## References
+1) [Markdown - nadaf](#https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/#:~:text=I2C%20is%20a%20serial%20communication,always%20controlled%20by%20the%20master.)
+
