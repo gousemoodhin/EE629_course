@@ -43,10 +43,10 @@ Wire.endTransmission ();
 ## Module Flow
 ![alt text](https://github.com/gousemoodhin/EE629_course/blob/master/Project_LCD_Displays_With_I2C_Using_Python/images/image_4.PNG)
 
-## Output
+## Console Screen (Sensor data)
 ![alt text](https://github.com/gousemoodhin/EE629_course/blob/master/Project_LCD_Displays_With_I2C_Using_Python/images/image_3.PNG)
 
-## Console Screen
+## Console Screen (Input text)
 ![alt text](https://github.com/gousemoodhin/EE629_course/blob/master/Project_LCD_Displays_With_I2C_Using_Python/images/image_1.PNG)
 
 ## References
