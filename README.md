@@ -41,7 +41,10 @@ Wire.endTransmission ();
 ![alt text](https://pi.lbbcdn.com/wp-content/uploads/2016/09/Raspberry-Pi-LCD-16x2-Circuit-Diagram-v1.png)
 
 ## Module Flow
-![alt text](https://github.com/gousemoodhin/EE629_course/blob/master/Project_LCD_Displays_With_I2C_Using_Python/images/image_2.PNG)
+![alt text](https://github.com/gousemoodhin/EE629_course/blob/master/Project_LCD_Displays_With_I2C_Using_Python/images/image_4.PNG)
+
+## Output
+![alt text](https://github.com/gousemoodhin/EE629_course/blob/master/Project_LCD_Displays_With_I2C_Using_Python/images/image_3.PNG)
 
 ## Console Screen
 ![alt text](https://github.com/gousemoodhin/EE629_course/blob/master/Project_LCD_Displays_With_I2C_Using_Python/images/image_1.PNG)
@@ -51,4 +54,7 @@ Wire.endTransmission ();
 
 2) [Sparkfun](https://learn.sparkfun.com/tutorials/i2c/all)
 
-2) [Wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C)
+3) [Wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C)
+
+4) [Sensor project_author: Abdulellah] (https://sites.google.com/view/abdulellah-ee-629/project)
+
