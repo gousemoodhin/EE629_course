@@ -2,7 +2,23 @@
 
 # Project: LCD displays using I2C protocol
 
-## Progress: I2C code implementation is completed
+In this project, we read Distance Measurement and Weather Information of two locations using a sensor and send info to the LCD display using I2C bus. It uses OpenWeatherMap API() to get the weather information.
+
+* Inputs
+  * Structure number and street name (required)
+  * City name (optional)
+  * State (optional)
+  * ZIP code (optional)
+
+* Example:
+    * Enter the first address (must be a one line address): 27 E 95th St, brooklyn, ny, 11212
+    * Enter the second address (must be a one line address): 108 MLK Blvd, Newark, nj, 07104
+
+* I2C_LCD API calls Read_Weather() API to get weather and distance information. Read_Weather() calculates the distance between two locations and weather info and return to I2C_LCD API.
+
+* I2C_LCD API() API sends these sensor data to  LCD display using I2C bus.
+
+* Here, we do not have real hardware, so redirecting LCD data to the console screen
 
 ## I2C
 Introduction:
